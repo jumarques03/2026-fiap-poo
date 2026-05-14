@@ -33,4 +33,9 @@ public class SmartTV extends Televisao {
             System.out.println("Conectado via " + tipoConexaoInternet + ".");
         }
     }
+
+    @Override
+    public void exibirModelo(){
+        System.out.println("Eu sou uma Smart TV");
+    }
 }

@@ -27,4 +27,9 @@ public class TVPortatil extends Televisao {
             System.out.println("Bateria insuficiente para ligar a TV portátil.");
         }
     }
+
+    @Override
+    public void exibirModelo(){
+        System.out.println("Eu sou uma Televisão Portátil");
+    }
 }

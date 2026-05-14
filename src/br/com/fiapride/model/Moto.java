@@ -21,4 +21,9 @@ public class Moto extends Veiculo {
         double kmRestante = this.getNivelCombustivel() * 35.0; 
         return "Autonomia: " + kmRestante + " km (Consumo de 35 km/l).";
     }
+
+    @Override
+    public void exibirTipo() {
+        System.out.println("Sou uma Moto");
+    }
 }

@@ -1,6 +1,6 @@
 package br.com.fiapride.model;
 
-public class Televisao {
+public abstract class Televisao {
     private String marca;
     private double tamanhoPolegadas;
     private int volume;
@@ -65,4 +65,6 @@ public class Televisao {
             System.out.println("ERRO: Não é possível mudar de canal com a TV desligada.");
         }
     }
+
+    public abstract void exibirModelo();
 }
