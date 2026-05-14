@@ -175,3 +175,4 @@ Embora os conceitos de Programação Orientada a Objetos sejam densos, não enfr
 **O que você melhoraria no seu projeto se pudesse refazer?**
 
 **Resposta:**
+Eu implementaria um tratamento de erros mais rigoroso em toda a lógica de negócio do sistema através do uso de exceções (Exceptions). Em vez de apenas exibir mensagens no console, o sistema utilizaria lançamentos de erros para impedir que a aplicação aceite estados inválidos, como a sintonização de canais inexistentes ou o ajuste de volume fora dos limites estabelecidos. Isso garantiria que o fluxo do programa fosse interrompido diante de falhas críticas, assegurando a total integridade e robustez do software.
