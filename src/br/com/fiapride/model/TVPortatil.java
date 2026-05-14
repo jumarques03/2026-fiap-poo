@@ -1,6 +1,6 @@
 package br.com.fiapride.model;
 
-public class TVPortatil extends Televisao {
+public class TVPortatil extends Televisao implements Penduravel{
     private int nivelBateria;
 
     public TVPortatil(String marca, double tamanhoPolegadas, int nivelBateria) {
@@ -31,5 +31,10 @@ public class TVPortatil extends Televisao {
     @Override
     public void exibirModelo(){
         System.out.println("Eu sou uma Televisão Portátil");
+    }
+
+    @Override
+    public void pendurar(){
+        System.out.println("TV Portátil pendurada na parede da cozinha");
     }
 }

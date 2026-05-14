@@ -1,6 +1,6 @@
 package br.com.fiapride.model;
 
-public class SmartTV extends Televisao {
+public class SmartTV extends Televisao implements Penduravel{
 
     private String tipoConexaoInternet;
     private String sistemaOperacional;
@@ -37,5 +37,10 @@ public class SmartTV extends Televisao {
     @Override
     public void exibirModelo(){
         System.out.println("Eu sou uma Smart TV");
+    }
+
+    @Override
+    public void pendurar(){
+        System.out.println("SmartTV pendurada na parede da sala");
     }
 }
